@@ -1,0 +1,59 @@
+<%= form_for(@user) do |f| %>
+<div id="stylized" class="signinform">
+
+
+
+
+	<div class="signform_fields l">
+      <%= devise_error_messages! %>
+<h1>Sign up</h1>
+    <%= f.label :email%>
+    <%= f.text_field :email%>
+
+    <%= f.label :password%>
+    <%= f.password_field :password%>
+
+    <%= f.label :password_confirmation%>
+    <%= f.password_field :password_confirmation%>
+
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+
+    <%= f.label :country_id %>
+    <%= f.select :country_id, @countries.map{ |country| [country.name, country.id] }, {:include_blank => true}  %>
+
+    <%= f.label :bio %>
+    <%= f.text_field :bio %>
+
+    <%= f.label :birth %>
+    <%= f.date_select :birth, {:start_year => Time.now.year - 100}%>
+	<%= f.label :image %>
+	 <%= f.file_field :image %>
+    <button type="submit">Submit</button>
+
+</div>
+<div class="lang_list l ">
+
+	<p>What languages do you speak?</p>
+	<img style="display:none" src="/images/ui-anim_basic_16x16.gif" />
+	<div class"lang_common"><ul class="lang_common_list" >
+		<% @languages_common.each do |language|%>
+	  		<li><%= check_box_tag :language_ids, language.id, false, :name => "user[language_ids][]"  %>
+	  		<%= language.name %></li>
+  <% end %></ul>
+  <a id="more_languages" href="#">View more languages</a>
+	</div>
+	<div class="lang_not_common" style="display:none;">
+		<ul>
+		<% @languages_not_common.each do |language| %>
+
+	  		<li><%= check_box_tag :language_ids, language.id, false, :name => "user[language_ids][]"  %>
+	  		<%= language.name %></li>
+
+  <% end %>
+		</ul>
+	</div>
+	</div>
+
+</div>
+<% end %>

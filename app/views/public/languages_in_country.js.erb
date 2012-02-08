@@ -1,0 +1,5 @@
+$(".lang_common_list").empty();
+<% @languages.each do |language| %>
+$(".lang_common_list").append("<li><%= escape_javascript(check_box_tag :language_ids, language.id, false ,:name => "user[language_ids][]") %><%= escape_javascript(language.name) %></li>")
+$("img").hide();
+<% end %>

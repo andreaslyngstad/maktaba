@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maktaba</title>
+  <%= stylesheet_link_tag    "public" %>
+  <%= javascript_include_tag "public" %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<div id="container">
+<%= render "public/log_sign_in" %>
+<!--	<# if current_user %>
+	<div class="user_c l">
+	<#= render "public_shared/user_friends" %>
+
+</div>
+<div class="recent_c l">
+	<%= yield %>
+</div>
+<div class="news_c l">
+	<%= yield :right %>
+</div>
+    -->
+<!--<# else %>  -->
+<div class="user_c l">
+  <ul class="country_list">
+  <% @countries.each do |country| %>
+     <li><%= link_to country.name, country_path(country.name) %></li>
+  <% end %>
+  </ul>
+</div>
+<div class="recent_c l">
+	<%= yield %>
+</div>
+<div class="news_c l">
+	<%= yield :right %>
+</div>
+
+<!--<# end %>-->
+    <div class="push"></div>
+</div>
+<div id="footer">
+	<%= markdown_safe( Setting.first.footer )%>
+</div>
+</body>
+</html>

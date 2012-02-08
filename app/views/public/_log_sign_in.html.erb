@@ -1,0 +1,22 @@
+
+<div id="global_header" class="global_header_normal">
+	<span style='font-size: 25px'><%= link_to "Maktaba", root_path%></span>
+	
+		<span style='color:#FFF'><%= notice %></span>
+	<div class="login_sign_in">
+<% if !current_user.nil? %>
+<div class="logged_in"><%= link_to "Logged in as " +  current_user.name, public_user_path %></div>
+<% if current_user.is_admin == true %>
+<div id="signin"><%= link_to "Admin pages", admin_interface_path %> </div>
+<% end %>
+<div id="signin"><%= link_to "Sign out?", sign_out_path %></div>
+<% else %>
+
+<div class="login"></div>
+<div id="signin"></div>
+<div id="login_form">
+
+</div>
+<% end %>
+</div>
+</div>

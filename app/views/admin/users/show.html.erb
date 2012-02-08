@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+<div class="user_info l">
+<h3><%= @user.name %></h3>
+
+  <p>
+    <%=  image(@user, "image150")%>
+  </p>
+<p>
+  <b>Points</b><br/>
+    <%= @user.points %>
+</p>
+<p>
+  <b>Admin</b><br/>
+    <%= @user.is_admin %>
+</p>
+
+<p>
+  <b>Language</b><br/>
+  <% @user.languages.each do |l| %>
+    	<%= l.name %><br/>
+    <% end %>
+</p>
+<p>
+  <b>Bio</b> <br/>
+  <%= @user.bio %>
+</p>
+
+<p>
+  <b>Age</b><br/>
+  <%= @user.age %>
+</p>
+<p>
+  <b>Email</b><br/>
+  <%= mail_to @user.email %>
+</p>
+<%= link_to 'Back', admin_users_path %>
+</div>
+<div class="comments l">
+  <h3>Comments</h3>
+   <div class="flickr_pagination">
+    <div class="page_info">
+          </div>
+   <%= will_paginate @comments, :container => false %>
+  </div>
+   <% @comments.each do |c| %>
+      <div class="user_comments_list_header">
+      On Post: <br/>
+      <%= link_to c.post.title, admin_post_path(c.post) %><br/>
+      <%=  c.created_at.strftime("%d %B %Y") %> Points <span style="font-size: 150%"><%= c.points %></span><br/>
+
+  <%= markdown(c.text) %><br/>
+
+       </div>
+  <% end %>
+</div>
+<div class="posts l">
+  <h3>Posts</h3>
+   <div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @posts, :container => false %>
+  </div>
+   <% @posts.each do |p| %>
+      <div class="user_comments_list_header">
+      <%= link_to p.title, admin_post_path(p) %><br/>
+      <%=  p.created_at.strftime("%d %B %Y") %> Points <span style="font-size: 150%"><%= p.points %></span><br/>
+       </div>
+  <% end %>
+</div>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+<b>Points:</b>
+<%= @comment.points %>
+</p>
+<p>
+<b>Text:</b>
+<%= markdown( @comment.text) %>
+</p>
+
+<p>
+  <b>Post:</b>
+  <%= @comment.post.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_comment_path(@comment) %> |
+<%= link_to 'Back', admin_comments_path %>

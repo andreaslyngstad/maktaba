@@ -1,0 +1,46 @@
+<%= form_for([:admin,@work]) do |f| %>
+
+  <% if @work.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@work.errors.count, "error") %> prohibited this work from being saved:</h2>
+
+      <ul>
+      <% @work.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+    <label for="author_image">Image <span class="small">(Not required)</span></label><br />
+
+    <%= f.file_field :cover %><br/> <br />
+  <div class="field">
+    <%= f.label :summary %><br />
+    <%= f.cktext_area :summary, :toolbar => 'Basic' %>
+  </div>
+  <div class="field">
+   <label for="work_language">Language <span class="small">(Please select a language)</span></label><br/>
+    <%= f.text_field :language_name, data: {autocomplete_source: languages_path}, :id => "language_name" %>
+
+  </div>
+    <div class="field">
+    <label for="work_author">Author <span class="small">(Please select an author)</span></label><br/>
+    <%= f.text_field :author_name, data: {autocomplete_source: authors_path}, :id => "author_name" %>
+    </div>
+  <div class="field">
+    <%= f.label :ISBN %><br />
+    <%= f.text_field :number %>
+  </div>
+  <div class="field">
+    <%= f.label :published %><br />
+    <%= f.text_field :published %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

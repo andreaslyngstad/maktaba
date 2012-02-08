@@ -1,0 +1,40 @@
+<div class="search">
+   <%= form_tag admin_posts_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+
+    <button type="submit">Search</button>
+<% end %>
+</div>
+<h1>Listing posts</h1>
+<div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @posts, :container => false %>
+  </div>
+ <table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Title</th>
+     <th>Points</th>
+    <th>Language</th>
+    <th>Writer</th>
+
+    <th>Published</th>
+  </tr>
+</thead>
+<tbody>
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= post.title %></td>
+     <td><%= post.points%></td>
+    <td class="title"><%= post.language.name %></td>
+    <td><%= link_to post.user.name, admin_user_path(post.user)%></td>
+
+    <td><%= post.created_at.strftime("%d %B %Y") %></td>
+    <td><%= link_to 'Show', admin_post_path(post) %></td>
+    <td><%= link_to 'Edit', edit_admin_post_path(post) %></td>
+    <td><%= link_to 'Destroy', admin_post_path(post), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>

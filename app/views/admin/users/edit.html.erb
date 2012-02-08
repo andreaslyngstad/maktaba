@@ -1,0 +1,45 @@
+<h2>Editing <%= @user.name %></h2>
+
+<p>
+  <%= @user.name %> speaks
+  <% @user.languages.each do |language| %>
+    <%= language.name %>,
+  <% end %>
+</p>
+<%= form_for([:admin, @user]) do |f| %>
+      <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this language from being saved:</h2>
+
+      <ul>
+      <% @user99.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+ <div class="field">
+    <%= f.label :admin? %> <br />
+    <%= f.check_box :is_admin %>
+ </div>
+ <div class="field">
+    <%= f.label :points %><br />
+    <%= f.text_field :points %>
+ </div>
+ <div class="field">
+    <%= f.label :email%><br />
+    <%= f.text_field :email%>
+ </div>
+ <div class="field">
+    <%= f.label :country_id %><br />
+    <%= f.select :country_id, Country.all.map{ |country| [country.name, country.id] }, {:include_blank => true}  %>
+ </div>
+ <div class="field">
+    <%= f.label :birth %> <br />
+    <%= f.date_select :birth, {:start_year => Time.now.year - 100}%>
+
+   </div>
+    <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

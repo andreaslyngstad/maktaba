@@ -1,0 +1,41 @@
+<div class="search">
+   <%= form_tag admin_authors_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+
+    <button type="submit">Search</button>
+<% end %>
+  </div>
+<h1>Listing authors|<span class="new_link"><%= link_to 'New Author', new_admin_author_path %></span></h1>
+
+
+
+<div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @users, :container => false %>
+  </div>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Language</th>
+    <th>Country</th>
+
+    <th>Age</th>
+
+  </tr>
+  </thead>
+<tbody>
+<% @authors.each do |author| %>
+  <tr>
+    <td><%= author.name %></td>
+    <td><%= author.language.name if author.language %></td>
+    <td><%= author.country.name %></td>
+    <td><%= author.birth_death %></td>
+    <td><%= link_to 'Show', admin_author_path(author) %></td>
+     <td><%= link_to 'Edit', edit_admin_author_path(author) %></td>
+    <td><%= link_to 'Destroy', admin_author_path(author), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>

@@ -1,0 +1,9 @@
+<div id="authors_list">
+<% @authors.each do |author| %>
+      <p>
+        <%= (image_tag author.portrait.url(:thumb)) if author.portrait_file_name%>
+        <%= link_to author.name, country_author_path(author.country.name, author) %>
+
+      </p>
+<% end %>
+    </div>

@@ -1,0 +1,34 @@
+<h2>
+  <%= @author.name %> <span class="small"><%= @author.birth_death %> |<%= link_to 'Edit', edit_author_path(@author) %>  </span>
+</h2>
+
+
+<div class="l author_lang_count">
+<ul>
+	<li>
+		<h4>Country</h4> 
+		<ul style="padding-left:10px;">
+			<li>
+  				<%= link_to @author.country.name, countries_path(@author.country )%>
+			</li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>
+		<h4>Language</h4> 
+		<ul style="padding-left:10px;">
+			<li>
+			  <%= link_to @author.language.name, language_path(@author.language) %>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+</div>
+<div class="l"><%= image_tag @author.portrait.url(:original) %></div>
+<p>
+  
+  <%= markdown(@author.bio) %>
+</p>
+

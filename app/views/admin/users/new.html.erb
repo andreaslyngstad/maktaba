@@ -1,0 +1,71 @@
+<div class="col_1 l">
+  <% if @user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@user.errors.count, "error") %> prohibited this author from being saved:</h2>
+
+        <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+<table class="table_form">
+<%= form_for([:admin, @user]) do |f| %>
+
+      <tr><td>
+    <%= f.label :email%>
+    	</td><td>
+    <%= f.text_field :email%>
+  </td></tr>
+<tr><td>
+    <%= f.label :password%></td><td>
+    <%= f.password_field :password%>
+  </td></tr>
+<tr><td>
+    <%= f.label :password_confirmation%></td><td>
+    <%= f.password_field :password_confirmation%>
+  </td></tr>
+
+ <tr><td>
+    <%= f.label :name %></td><td>
+    <%= f.text_field :name %>
+  </td></tr>
+ <tr><td>
+    <%= f.label :country_id %></td><td>
+    <%= f.select :country_id, @countries.map{ |country| [country.name, country.id] }, {:include_blank => true}  %>
+  </td></tr>
+ <tr><td>
+    <%= f.label :bio %></td><td>
+    <%= f.text_field :bio %>
+  </td></tr>
+  <tr><td>
+    <%= f.label :birth %></td><td>
+    <%= f.date_select :birth, {:start_year => Time.now.year - 100}%>
+  </td></tr>
+<tr><td>
+    </td><td><%= f.submit "Submit"%>
+  </td></tr>
+
+</table>
+</div>
+<div class="col_2 l">
+<div class="lang_list">
+	<p>What languages do you speak?</p>
+	<div class"lang_common"><ul>
+		<% for language in @languages%>
+		<% unless @user.id.nil? %>
+			<li><%= check_box_tag :language_ids, language.id, @user.languages.include?(language), :name => "user[language_ids][]" %>
+	  		<%= language.name %></li>
+  		<% else %>
+	  		<li><%= check_box_tag :language_ids, language.id, false, :name => "user[language_ids][]"  %>
+	  		<%= language.name %></li>
+  		<% end %>
+  <% end %></ul>
+
+
+	</div>
+</div>
+<% end %>
+</div>

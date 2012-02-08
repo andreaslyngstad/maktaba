@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+<h3><%= @language.name %></h3>
+</p>
+<p>
+<b><%= @language.name %> is spoken in</b>
+<table id="list_table" class="tablesorter">
+     <thead>
+     <tr>
+       <th>Name</th>
+       <th>Speakers</th>
+       <th>Comment</th>
+     </tr>
+      </thead>
+   <tbody>
+    <% @language.language_in_country.each do |c| %>
+     <tr>
+       <td><%= link_to c.country.name, admin_country_path(c.country) %></td>
+          <td><%= c.speakers_in_country %></td>
+       <td><%= c.comment%></td>
+
+
+     </tr>
+   <% end %>
+   </tbody>
+   </table>
+</p>
+<p>
+  <b>History</b>
+  <%= @language.history %>
+</p>
+<p>
+  <b>Examples</b>
+  <%= @language.examples %>
+</p>
+<p>
+  <b>Common</b>
+  <%= @language.common %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_language_path(@language) %> |
+<%= link_to 'Back', admin_languages_path %>

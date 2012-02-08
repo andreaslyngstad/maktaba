@@ -1,0 +1,40 @@
+<div class="comment">
+	
+	<div class="main">
+		
+	  	<div class="comment_content">
+		<%= markdown(comment.text )%>
+            <div class="comment_edit_form" id="edit_comment_<%= comment.id %>">
+          <%= form_for(comment) do |f|%>
+                  <%= hidden_field_tag :post_id, @post.id %>
+                  <% if !@country.nil? %>
+                  <%= hidden_field_tag :country_name, @country.name %>
+                  <% else %>
+                  <%= hidden_field_tag :language_name, @language.name %>
+                  <% end %>
+                  <%= f.text_area(:text, :cols => 80, :rows => 5, :id => "comment_edit_text" )%><br/>
+                  <%= f.submit("Post comment", :class => 'submit') %>
+                  <% end %>
+              </div>
+		</div>
+		
+		<div class="headline"><div class="avatar">
+		<%=  image(comment.user, "thumb")%>
+	</div>	
+	<div class="name_date l">
+			<p class="name">
+     			<%= comment.user.name%>
+     			<% if comment.user == @user %>
+
+     			 | <a href="#" class="show_comment_edit" id="<%= comment.id %>">edit</a>
+				<% end %>	
+ 			</p>
+ 			<p class="points"><%= comment.user.points%></p>
+ 			<p class="date">
+	  	<%=comment.created_at.strftime("%d. %B %Y")%></p>
+	</div>
+	  	<%= render :partial => "public/vote", :locals => { :object => comment } %>
+	  	</div>
+	</div>
+	
+</div>

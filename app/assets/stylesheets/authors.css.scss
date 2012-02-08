@@ -1,0 +1,32 @@
+// Place all the styles related to the authors controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.author_lang_count{
+  display:block;
+  padding: 20px;
+  background:#52F799;
+  color: #333;
+  max-width:90px;
+ 
+  height: 210px;
+}
+.author_lang_count a{
+  color: #333;
+}
+.author_lang_count a:hover{
+  color: #FA7898;
+}
+.author_bio{
+margin-left: 10px;
+float: left;
+
+
+}
+#authors_list p{
+   padding: 5px;
+   vertical-align:text-top;
+}
+#authors_list img
+{
+vertical-align:text-top;
+}

@@ -1,0 +1,27 @@
+   <div class="search">
+   <%= form_tag admin_languages_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+
+    <button type="submit">Search</button>
+<% end %>
+</div>
+<h1>Listing languages| <span class="new_link"><%= link_to 'New language', new_admin_language_path %></span></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @languages.each do |language| %>
+  <tr>
+    <td><%= language.name %></td>
+    <td><%= link_to 'Show', admin_language_path(language) %></td>
+    <td><%= link_to 'Edit', edit_admin_language_path(language) %></td>
+    <td><%= link_to 'Destroy', admin_language_path(language), :confirm => 'Are you sure?', :method => :delete%></td>
+  </tr>
+<% end %>
+</table>

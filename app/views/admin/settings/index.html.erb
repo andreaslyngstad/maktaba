@@ -1,0 +1,13 @@
+<h1>Settings | <span class="new_link"><%= link_to 'Edit', edit_admin_setting_path(@setting) %></span></h1>
+<p>
+  <b>Instructions</b><br>
+  <%=markdown_safe( @setting.instructions )%>
+</p>
+<p>
+  <b>First page</b><br>
+  <%=markdown_safe( @setting.first_page )%>
+</p>
+<p>
+  <b>Footer</b><br>
+  <%=markdown_safe( @setting.footer )%>
+</p>

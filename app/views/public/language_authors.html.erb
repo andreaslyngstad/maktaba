@@ -1,0 +1,32 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+  <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <% end %>
+  <li class="inactive enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="active enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag language_authors_path, :method => 'get', :id => "products_search" do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+</div>
+<% @authors.each do |author| %>
+<div class="post l">
+<div class="post_header l">
+<%= link_to author.name, language_author_path(author.language.name, author) %>
+</div>
+<div class="post_ingress l">
+  <%= image_tag author.portrait.url(:thumb) if author.portrait_file_name %>
+  <% author.works.each do |work| %>
+      <ul>
+        <li>
+          <%= link_to work.title, language_work_path(@language.name, work)%>
+        </li>
+      </ul>
+  <% end %>
+</div>
+</div>
+<% end %>
+<%= render "public/news_language" %>

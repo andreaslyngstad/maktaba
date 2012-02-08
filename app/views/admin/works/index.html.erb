@@ -1,0 +1,42 @@
+<div class="search">
+   <%= form_tag admin_works_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+
+    <button type="submit">Search</button>
+<% end %>
+</div>
+
+<h1>Listing works | <span class="new_link"><%= link_to 'New Work', new_admin_work_path %></span></h1>
+<div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @works, :container => false %>
+  </div>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>Language</th>
+    <th>Number</th>
+    <th>Published</th>
+  </tr>
+</thead>
+<tbody>
+<% @works.each do |work| %>
+  <tr>
+    <td><%= work.title %></td>
+
+    <td class="title"><%= work.language.name %></td>
+    <td><%= work.number %></td>
+    <td><%= work.published %></td>
+    <td><%= link_to 'Show', admin_work_path(work) %></td>
+    <td><%= link_to 'Edit', edit_admin_work_path(work) %></td>
+    <td><%= link_to 'Destroy', admin_work_path(work), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+
+
+
+

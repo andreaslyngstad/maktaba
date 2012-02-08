@@ -1,0 +1,41 @@
+<div class="l work_title_washl">
+<h4>
+   <%= @work.title %> <span class="small"><%= !@work.number == "" ? ("ISBN: " + @work.number) : "" %> <%= @work.published if @work.published %> |<%= link_to 'Edit', edit_work_path(@work) %>  </span>
+</h4>
+
+
+
+<p>
+  
+  <%= markdown(@work.summary) %>
+</p>
+</div>
+<div class="l work_img_info">
+<div class="l"><%= image_tag @work.cover.url(:original) %></div>
+<div class="l work_auth_lang">
+<ul>
+	<li>
+		<h4>Author</h4> 
+		<ul style="padding-left:10px;">
+			<li>
+  				<%= link_to @work.author.name, author_path(@work.author )%>
+			</li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>
+		<h4>Language</h4> 
+		<ul style="padding-left:10px;">
+			<li>
+			  <%= link_to @work.language.name, language_path(@work.language.name) %>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+</div>
+</div>
+<% content_for :right do %>
+<%= render "public_shared/news" %>
+<% end %>

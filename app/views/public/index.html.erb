@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maktaba</title>
+  <%= stylesheet_link_tag    "public" %>
+  <%= javascript_include_tag "public" %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript" charset="utf-8">
+    function randomFrom(arr){
+    var randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+}     var colorArray = ["#078930", "#FCDD09", "#DA121A", "#0F47AF", "#FA6432", "#EDB200", "#00CF00", "#8A3900", "#C95400"];
+      var hoverColorArray =  ["#07f930", "#FCfD09", "#DAf21A", "#0Ff7AF"];
+  	var paths = {
+
+    <%= @country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= @country.id %>", name: "<%= @country.name %>",slug:"<%= @country.name %>", fill:"<%= @country.color %>" ,url:"<%= country_path(@country.name) %> ",path:"<%= @country.path %>"},
+
+	<% @countries.each do |country| %>
+
+    <% if country.name != "South Africa" %>
+	<%= country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= country.id %>", name: "<%= country.name %>",slug:"<%= country.name %>", fill:"<%= country.color %>",url:"<%= country_path(country.name) %> ",path:"<%= country.path %>"},
+	<% end %>
+	<% end %>
+}
+	jQuery(function($){
+    var r = Raphael('chaptersMap', 550, 550);
+	r.safari();
+	var _label = r.popup(50, 50, "").hide();
+
+    attributes = {
+    		
+
+            stroke: '#777',
+            'stroke-width': 2,
+            'stroke-linejoin': 'round'
+        },
+    arr = new Array();
+    for (var country in paths) {
+        var obj = r.path(paths[country].path);
+        arr[obj.id] = country;
+
+        obj.attr(
+                {
+
+            fill: paths[country].fill,
+            stroke: '#777',
+            'stroke-width': 2,
+            'stroke-linejoin': 'round'
+        }
+        );
+
+        obj.hover(function(country){
+        	$("#about_country").find("." + paths[arr[this.id]].id).show()
+            color = this.attr("fill")
+            this.animate({
+                fill: "#0FF7AF"
+            } );
+			bbox = this.getBBox();
+			paths[arr[this.id]].slug 
+					_label.attr({text: paths[arr[this.id]].name}).update(bbox.x, bbox.y + bbox.height/2, bbox.width).toFront().show();
+				
+			
+        }, function(){
+        	$("#about_country").find(".country_info").hide()
+            this.animate({fill: color});
+			_label.hide();
+        })
+        .click(function(){
+            
+			location.href = paths[arr[this.id]].url;
+             
+        })	
+    }
+
+   $("#countries_index_list li").hover(
+           function(){
+        	$("#about_country").find("." + (this.id)).show()
+
+        }, function(){
+        	$("#about_country").find(".country_info").hide()
+        })
+   $("#view_list").click(
+           function () {
+          $("#countries_index_list").show(),
+          $("#map_container").hide()
+          $(this).hide()
+          $("#view_map").show()
+         }
+        )
+    $("#view_map").click(
+           function () {
+          $("#countries_index_list").hide(),
+          $("#map_container").show()
+          $(this).hide()
+          $("#view_list").show()
+           }
+            )
+
+});
+jQuery.expr[':'].raph=function
+(objNode,intStackIndex,arrProperties,arrNodeStack){var c=objNode.getAttribute('class');return(c&&c.indexOf(arrProperties[3])!=-1);}
+  </script>
+  
+</head>
+<body>
+<div id="container">
+<%= render "log_sign_in" %>
+
+
+	<div id="header">
+      <p id="view_list">View list</p>
+      <p id="view_map">View map</p>
+	</div>
+	
+<div id="about_country">
+	<% @countries.each do |country| %>
+	<div class="country_info <%= country.id %>" style="display:none;">
+	<h1><%= country.name %></h1>  
+	<%= markdown_safe(truncate(country.description.html_safe, :length => 1000, :omission => "... (learn more by clicking on the map)") ) %>
+		</div>	
+	<% end %>
+	</div>	
+<div id="countries_index_list">
+    <ul class="country_list_at_index">
+  <% @countries.each do |country| %>
+     <li id="<%= country.id%>"><%= link_to truncate(country.name, :length => 20), country_path(country.name) %></li>
+  <% end %>
+  </ul>
+  </div>
+<div id="map_container">
+	<div id="chaptersMap">
+	</div>
+
+</div>
+<div id="about_pen">	
+<%= markdown_safe(Setting.first.first_page.html_safe) %>
+</div>
+   <div class="push"></div>
+</div>
+<div id="footer">
+	<%= markdown_safe(Setting.first.footer) %>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maktaba</title>
+  <%= stylesheet_link_tag "admin/application" %>
+   <%= javascript_include_tag "admin/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="header" class="orange_bgr">
+
+
+	<div id="header_wrapper">
+      <div id="global_header" class="global_header_normal">
+	<span style='font-size: 25px'><%= link_to "Maktaba", root_path%></span>
+
+<span style='color:#FFF'><%= flash[:notice]%></span>
+<span style='color:#FFF'><%= flash[:alert]%></span>
+<div class="login_sign_in">
+    <div class="logged_in"><%= link_to "Logged in as " +  current_user.name, public_user_path %></div>
+    <div id="signin"><%= link_to "Public pages", public_user_path %> </div>
+    <div id="signin"><%= link_to "Sign out?", sign_out_path %></div>
+</div>
+</div>
+</div>
+		<%= tabs %>
+		<%= subtabs %>
+	  
+	  </div>
+	</div>	
+<div class="content">
+<%= yield %>
+</div>
+</body>
+</html>

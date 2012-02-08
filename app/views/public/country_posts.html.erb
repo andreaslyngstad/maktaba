@@ -1,0 +1,22 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @country.name, country_path(@country.name) %></li>
+  <li class="active enabled"><%= link_to "Posts", country_posts_path(@country.name) %></li>
+  <li class="inactive enabled"><%= link_to "Works", country_works_path(@country.name) %></li>
+  <li class="inactive enabled"><%= link_to "Authors", country_authors_path(@country.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag country_posts_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+</div>
+
+<div class="digg_pagination">
+    <div class="page_info_pagination">
+      <%= page_entries_info @posts %>
+    </div>
+    <%= will_paginate @posts, :container => false %>
+  </div>
+
+<%= render "posts/post_list" %>
+<%= render "public/news" %>

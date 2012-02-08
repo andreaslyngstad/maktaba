@@ -1,0 +1,20 @@
+<div class="comment">
+    <div class="headline l">
+      <div class="avatar">
+		<%= image(object.user,"thumb") %>
+	  </div>
+	  <div class="name_date l">
+			<p class="name">
+     			<%= object.user.name%>
+     			<% if object.user == @user %>
+     			 | <%= link_to "edit", edit_post_path(object), :class => "edit_link" %>
+				<% end %>
+ 			</p>
+            <p class="points"><%= object.user.points%></p>
+ 			<p class="date">
+	  	    <%=object.created_at.strftime("%d. %B %Y")%>
+             </p>
+	  </div>
+	  	<%= render :partial => "public/vote", :locals => { :object => object } %>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+
+<div id="stylized" class="form">
+<h2>Forgot your password?</h2>
+<p>Enter your email and we'll send instructions to change you password</p>
+<%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f| %>
+  <%= devise_error_messages! %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+<button type="submit">GO</button>
+ 
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>
+</div>

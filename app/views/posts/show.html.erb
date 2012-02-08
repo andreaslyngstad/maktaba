@@ -1,0 +1,88 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @country.name, country_path(@country.name) %></li>
+  <li class="active enabled"><%= link_to "Posts", country_posts_path(@country.name) %></li>
+  <li class="inactive enabled"><%= link_to "Works", country_works_path(@country.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", country_authors_path(@country.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag country_posts_path(@country), :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+ </div>
+<div class="post_header l">
+	<%= link_to @post.title, post_path(@post) %> 
+</div>
+<div class="post_ingress l">
+	<%= markdown(@post.text) %>    
+</div>
+<%= render :partial => "public/headline", :locals => { :object => @post } %>
+<% if @post.comments_count != 0%>              
+		<p>Comments</p>   
+		<%= render(:partial => 'public_shared/comment', :collection => @post.comments) %>	
+	<% end %>
+<% if current_user %>
+	 <div class="comment" id="new_comment">
+    
+    <div class="main">
+      <div class="headline_new l">
+    <span class="position">New comment as</span>
+  <span class="name">
+      <%= @user.name %>
+  </span>
+
+<div class="formatting">
+            Use <a href="http://daringfireball.net/projects/markdown/" target="BLANK">Markdown</a> for formatting. <a href="#" class="markdown_link">See examples.</a>
+            <div class="markdown_examples" style="display: none">
+              <table>
+                <tr>
+                  <td><pre>[Link](http://example.com/)</pre></td>
+                  <td><a href="http://example.com/">Link</a></td>
+                </tr>
+                <tr>
+                  <td><pre>*Italic*</pre></td>
+                  <td><em>Italic</em></td>
+                </tr>
+                <tr>
+                  <td><pre>**Bold**</pre></td>
+                  <td><strong>Bold</strong></td>
+                </tr>
+                <tr>
+                  <td><pre>
+* Listed
+* Items
+                  </pre></td>
+                  <td><ul><li>Listed</li><li>Items</li></ul></td>
+                </tr>
+                <tr>
+                  <td><pre>&gt; Block quote</pre></td>
+                  <td><blockquote><p>Block quote</p></blockquote></td>
+                </tr>
+                <tr>
+                  <td><pre>`Inline code`</pre></td>
+                  <td><code>Inline code</code></td>
+                </tr>
+                <tr>
+                  <td>
+                    
+                  </td>
+                  <td>    
+
+
+
+                </td>
+                </tr>
+              </table>
+               </div>
+              </div>
+            </div>
+          </div><%= form_for([@post, Comment.new]) do |f|%>
+	
+		 <%= hidden_field :post_id, @post %>
+		<%= f.text_area(:text, :cols => 60, :rows => 5 )%><br/>
+		<%= f.submit("Post comment", :class => 'submit') %>
+
+<% end %>
+
+              </div>
+    <% end %>

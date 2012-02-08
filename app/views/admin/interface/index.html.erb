@@ -1,0 +1,56 @@
+<h2>Listing users with less points</h2>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Points</th>
+    <th>Name</th>
+  </tr>
+  </thead>
+<tbody>
+<tr>
+<% @users.each do |user|   %>
+    <td><%= user.points %></td>
+    <td><%= link_to user.name, admin_user_path(user) %> </td>
+</tr>
+<% end %>
+</tbody>
+</table>
+
+<h2>Listing posts with less points</h2>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Points</th>
+    <th>Title</th>
+    <th>User</th>
+  </tr>
+  </thead>
+<tbody>
+<tr>
+<% @posts.each do |post| %>
+    <td><%= post.points %></td>
+    <td><%= link_to post.title, admin_post_path(post) %></td>
+    <td><%= link_to post.user.name, admin_user_path(post.user) %></td>
+</tr>
+<% end %>
+</tbody>
+</table>
+<h2>Listing comments with less points</h2>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Points</th>
+    <th>Post</th>
+    <th>User</th>
+  </tr>
+  </thead>
+<tbody>
+<tr>
+<% @comments.each do |comment| %>
+    <td><%= comment.points %> </td>
+    <td><%= link_to comment.post.title, admin_post_path(comment.post) %></td>
+    <td><%= link_to comment.user.name, admin_user_path(comment.user) %> </td>
+</tr>
+<% end %>
+</tbody>
+</table>

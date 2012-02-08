@@ -1,0 +1,11 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @country.name, country_path(@country.name) %></li>
+   <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", country_posts_path(@country.name) %></li>
+  <% end %>
+  <li class="active enabled"><%= link_to "Works", country_works_path(@country.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", country_authors_path(@country.name) %></li></ul>
+</nav>
+<%= render "works/works_list" %>
+
+<%= render "public/news" %>

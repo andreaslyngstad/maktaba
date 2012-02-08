@@ -1,0 +1,38 @@
+<nav id="tabs"><ul>
+  <li class="active enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+  <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <% end %>
+  <li class="inactive enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+
+<div class="info">
+    <h1><%= @language.name %></h1>
+
+  <p><%=markdown_safe(@language.history)%></p>
+  <p><%=markdown_safe(@language.examples)%></p>
+
+    <table id="list_table_public" class="tablesorter">
+     <thead>
+     <tr>
+       <th>Country</th>
+       <th>Speakers</th>
+       <th>Comment</th>
+     </tr>
+      </thead>
+       <tbody>
+   <% @language_in_countries.each do |l_in_c| %>
+     <tr>
+       <td><%= link_to l_in_c.country.name, country_path(l_in_c.country.name) %></td>
+       <td><%= l_in_c.speakers_in_country %></td>
+       <td id="lang_comment"><%= l_in_c.comment%></td>
+     </tr>
+   <% end %>
+   </tbody>
+   </table>
+
+  <p><%=markdown_safe(@language.examples)%></p>
+
+</div>
+<%= render "public/news_language" %>

@@ -1,0 +1,28 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+  <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <% end %>
+  <li class="active enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag language_works_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+</div>
+<% @works.each do |work| %>
+<div class="post l">
+<div class="post_header l">
+
+<%= link_to work.title, language_work_path(work.language.name, work) %>
+</div>
+<div class="post_ingress l">
+  <p><b><%= link_to work.author.name, language_author_path(work.language.name, work.author) %></b></p>  <br/>
+<%= truncate(work.summary, :length => 400) %>
+
+</div>
+
+</div>
+<% end %><%= render "public/news_language" %>

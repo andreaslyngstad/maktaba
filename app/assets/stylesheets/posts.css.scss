@@ -1,0 +1,30 @@
+.post{
+  margin-bottom: 10px;
+}
+.name_date{
+  width:350px;
+}
+.post_ingress{
+  background:#fff;
+  color:#333;
+  width: 658px;
+   padding: 10px 20px 10px 20px;
+  border: 1px solid #fff;
+}
+.post_header{
+  display:block;
+
+  color:#333;
+  background:#ddd;
+  min-height:30px;
+  line-height:30px;
+  width: 660px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+.post_header a{
+   color:#333;
+}
+.post_header a:hover{
+ color:#666;
+}

@@ -1,0 +1,30 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+  <li class="active enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <li class="inactive enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag language_posts_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+</div>
+
+
+<% @posts.each do |post| %>
+<div class="post l">
+<div class="post_header l">
+
+<%= link_to post.title, language_post_path(post.language.name, post) %>
+   <span style="font-size: 50%"><%=post.comments_count %> Comments </span>
+</div>
+<div class="post_ingress l">
+
+<%= truncate(post.text, :length => 400) %>
+
+</div>
+<%= render :partial => "public/headline", :locals => { :object => post } %>
+</div>
+<% end %>
+<%= render "public/news_language" %>

@@ -1,0 +1,22 @@
+<p><%= @user.name %></p>
+<%=  image(@user, "image150")%>
+<p>Actions</p>
+<ul class="small">
+<li><%= link_to "Edit profile", edit_user_path(current_user) %></li>
+<li><%= link_to "Write Post", new_post_path %></li>
+  <% if current_user and current_user.points > 200 %>
+ <li><%= link_to "Add Author", new_author_path %></li>
+  <% end %>
+   <% if current_user and current_user.points > 200 %>
+  <li><%= link_to "Add work", new_work_path %></li>
+  <% end %>
+</ul>
+
+<ul>
+<% @user.languages.each do |lang| %>
+<li><%= link_to lang.name, language_path(lang.name)%></li>
+<% end %>
+</ul>
+<ul class="small">
+<li><%= link_to "Instructions", instructions_path %></li>
+</ul>

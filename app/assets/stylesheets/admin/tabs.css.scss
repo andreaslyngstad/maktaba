@@ -1,0 +1,92 @@
+#tabs {
+  position:absolute; top:117px; left:100px;
+    width:1150px;
+    font-family:Verdana,Helvetica,sans-serif;
+    font-size:100%;
+   
+      }
+#tabs ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  height: 32px;
+}
+#tabs li {
+    float: left;
+  margin: 0;
+  padding: 0;
+  height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+  line-height: 31px; /*--Vertically aligns the text within the tab--*/
+  border: 1px solid #999;
+  border-left: none;
+  margin-bottom: -1px; /*--Pull the list item down 1px--*/
+  overflow: hidden;
+  position: relative;
+  background: #e0e0e0;
+}
+#tabs li a{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 1.2em;
+  padding: 0 20px;
+  border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+  outline: none;
+}
+#tabs li:hover {
+  background-color:#ccc;
+}
+#tabs li.active, #tabsH li.active a:hover{
+  background-color:#fff;
+  border-bottom: 1px solid #fff
+}
+
+
+
+#subtabs{
+  position:absolute; top:160px; left:200px;
+    width:100%;
+    font-family:Verdana,Helvetica,sans-serif;
+    font-size:100%;
+}
+#subtabs ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  height: 32px;
+}
+#subtabs li {
+    float: left;
+  margin: 0;
+  padding: 0;
+  height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+  line-height: 31px; /*--Vertically aligns the text within the tab--*/
+  
+  
+  overflow: hidden;
+  position: relative;
+  
+}
+
+#subtabs li a{
+
+  color: #000;
+  display: block;
+  font-size: 1.2em;
+  padding: 0 20px;
+  border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+  outline: none;
+}
+
+#subtabs li.active, #tabsH li.active a:hover{
+  text-decoration: underline;
+  
+}
+
+
+#subtabs li a{
+  display: block;
+float: left;
+width: 100%;
+}
+  

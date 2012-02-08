@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+ <%= image_tag @author.portrait.url(:original) %>
+<p>
+  <b>Name:</b>
+  <%= @author.name %>
+</p>
+
+
+<p>
+  <b>Language:</b>
+  <%= @author.language.name if @author.language %>
+</p>
+
+<p>
+  <b>Birth:</b>
+  <%= @author.birth_death %>
+</p>
+
+<p>
+  <b>Bio:</b>
+  <%= markdown(@author.bio )%>
+</p>
+<p>
+    <b>Works:</b>   <br/>
+<% @author.works.each do |w| %>
+    <%= link_to w.title, admin_work_path(w) %>  <br/>
+      <% end %>
+</p>
+<%= link_to 'Edit', edit_admin_author_path(@author) %> |
+<%= link_to 'Back', admin_authors_path %>

@@ -1,0 +1,16 @@
+
+<div id="stylized" class="form">
+<h2>Resend confirmation instructions</h2>
+
+<%= form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post }) do |f| %>
+  <%= devise_error_messages! %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+<button type="submit">Resend confirmation</button>
+
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>
+
+</div>

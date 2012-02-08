@@ -1,0 +1,25 @@
+<div class="vote l">
+	<span class="vote-count l"><%= object.points %></span>
+	<% if current_user %>
+  <% unless object.user == current_user %>
+      <% if !object.given_points.where(:user_id => current_user.id, :up => true).blank? %>
+      <a class="vote-up-off vote-up-on"
+      <% else %>
+		 <a class="vote-up-off"
+		 <% end %>
+       data-direction="up"
+       data-id="<%= object.id.to_s %>"
+       data-object="<%= object.class.to_s.downcase %>s"
+       title="Give a reputation point to this user (click again to undo)">up vote</a>
+       <% if !object.given_points.where(:user_id => current_user.id, :up => false).blank? %>
+		<a class="vote-down-off vote-down-on"
+		<% else %>
+		<a class="vote-down-off"
+		<% end %>
+       data-direction="down"
+       data-id="<%= object.id.to_s %>"
+       data-object="<%= object.class.to_s.downcase %>s"
+       title="Take away a reputation point to this user. Requires a reputation of 50 points(click again to undo)">down vote</a>
+  <%end %>
+  <%end %>
+</div>

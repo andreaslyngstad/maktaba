@@ -1,0 +1,36 @@
+.vote{
+  margin-left: 200px;
+  margin-top:6px;
+}
+.vote span {
+display: block;
+color: #808185;
+font-weight: bold;
+font-size: 240%;
+margin-top:8px;
+}
+.vote-up-off{
+  background-position: 0px -35px; 
+}
+.vote-down-off {
+background-position: 0px -75px;
+}
+.vote-up-on {
+background-position: 0px -2px;
+}
+.vote-down-on {
+background-position: 0px -102px;
+}
+
+.vote-down-off, .vote-up-off, .vote-down-on, .vote-up-on{
+text-indent: -9999em;
+cursor: pointer;
+font-size: 1px;
+display: block;
+margin: 0 auto;
+width: 41px;
+height: 25px;
+background-image: url('sprites.png?v=4');
+background-repeat: no-repeat;
+overflow: hidden;
+}

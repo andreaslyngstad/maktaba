@@ -1,0 +1,63 @@
+
+
+    .markdown_wrap textarea{
+
+    }
+
+    .markdown_wrap_menu{
+      height: 2em;
+
+      background-color: #CCC;
+      margin: 0px;
+      padding: 15px 2px 2px 2px;
+    }
+
+
+
+    .markdown_wrap_content{
+       padding: 20px 15px;
+  background-color: #FFF;
+  border: solid 1px #CCC;
+  border-top: none;
+  overflow:hidden;
+  font: 100% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    }
+
+    .markdown_wrap_menu div{
+      font-size: 80%;
+      color: #222;
+
+      float: left;
+      margin-right: 1em;
+      border: 1px solid #888;
+      padding: 2px;
+
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+
+    }
+
+    .markdown_wrap_menu .markdown_wrap_menu_help{
+      float: right;
+    }
+    
+    .markdown_wrap.editing .markdown_wrap_menu_preview, .markdown_wrap.previewing .markdown_wrap_menu_edit, .markdown_wrap_menu_help{
+      background-color: none;
+      border: 1px solid #888;
+    }
+
+    .markdown_wrap.editing .markdown_wrap_menu_edit, .markdown_wrap.previewing .markdown_wrap_menu_preview, .markdown_wrap.helping .markdown_wrap_menu_help{
+      background-color: #EEE;
+      border-top: 1px solid #444;
+      border-bottom: 1px solid #BBB;
+    }
+    
+    .markdown_wrap_menu_edit, .markdown_wrap_menu_preview, .markdown_wrap_menu_help{
+      cursor: pointer;
+    }
+
+    .markdown_wrap_preview{
+      display: none;
+    }
+

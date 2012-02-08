@@ -1,0 +1,18 @@
+<% content_for(:right) do %>
+	<div class="works_count r">
+		<h4>5 newly added works in <%= @country.name %></h4>
+		<ul>
+<% @new_works.each do |work| %>
+<li><%= link_to work.title, country_work_path(@country.name,work) %></li>
+<% end %>
+</ul>
+</div>
+<div class="lang_count r">
+	<h4>People in <%= @country.name %> speak:</h4>
+	<ul>
+		<% @language_countries.each do |language| %>
+		 <li><%= link_to language.name, language_path(language.name) %></li>
+		<% end %>
+	</ul>
+</div>
+<% end %>

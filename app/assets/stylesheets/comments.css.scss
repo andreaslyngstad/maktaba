@@ -1,0 +1,105 @@
+
+.comment a{
+    color:#473DFF;
+}
+.comment a:hover{
+    color:#FA7898;
+}
+.post_ingress a{
+    color:#473DFF;
+}
+.post_ingress a:hover{
+    color:#FA7898;
+}
+
+p.name, p.points, p.date {
+display: block;
+padding: 0px;
+margin:0 ;
+}
+p.points{
+font-size: 200%;
+}
+#comments {
+  margin-top: 10px;
+}
+
+.comment {
+
+  position: relative;
+  color: #333;
+}
+
+.comment .avatar {
+  float: left;
+
+
+}
+
+.comment .avatar img {
+  display: block;
+  margin: 5px;
+}
+
+
+.comment .main {
+
+}
+.headline {
+  width: 100%;
+  font-size: 12px;
+  background-color: #DDD;
+  height: 60px;
+  border-bottom: none;
+}
+#new_comment_container{
+background:#fff;
+width:680px;
+padding:10px;
+}
+.comment .position, .comment .name {
+  font-weight: bold;
+}
+
+.comment .created_at {
+  color: #666;
+  padding-left: 8px;
+}
+
+.comment_content {
+  padding: 20px 15px;
+  background-color: #FFF;
+  border: solid 1px #CCC;
+  border-top: none;
+  overflow:hidden;
+  font: 100% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+  
+}
+
+.comment .actions {
+  margin-bottom: 12px;
+}
+
+.comment blockquote {
+  margin: 0;
+  padding-left: 10px;
+  border-left: solid 5px #CCC;
+  color: #777;
+}
+.headline_new{
+  width:690px;
+  background:#fff;
+  font-size: 12px;
+  padding: 5px; 
+  
+}
+.headline_new a{
+    color:#000;
+}
+.headline_new a:hover{
+    color:#000;
+}
+#comment_text{
+
+  margin:0;
+}

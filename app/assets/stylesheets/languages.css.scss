@@ -1,0 +1,33 @@
+// Place all the styles related to the languages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.lang_count{
+  display:block;
+  padding: 20px;
+ background: #C43F3F;
+  color: #333;
+  width:110px;
+  overflow:hidden;
+
+}
+.lang_count a{
+
+  color: #333;
+}
+.lang_count a:hover{
+  color: #000000;
+}
+.works_count{
+  display:block;
+  padding: 20px;
+  background:#52F799;
+  color: #333;
+  width:110px;
+  overflow:hidden;
+}
+.works_count a{
+  color: #333;
+}
+.works_count a:hover{
+  color: #FA7898;
+}

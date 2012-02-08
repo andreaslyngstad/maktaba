@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maktaba</title>
+  <%= stylesheet_link_tag    "public" %>
+  <%= javascript_include_tag "public" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="container">
+<%= render "public/log_sign_in" %>
+
+
+
+<div class="recent_c l">
+	<%= yield %>
+</div>
+<div class="news_c l">
+	<%= yield :right %>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<%= form_for(@author) do |f| %>
+<div class="one_coloumn">
+  <% if @author.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@author.errors.count, "error") %> prohibited this author from being saved:</h2>
+
+      <ul>
+      <% @author.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <label for="author_name">Name <span class="small">(Please write the authors full name)</span></label><br />
+    <%= f.text_field :name, :id => "author_form_name" %>
+    <label for="author_image">Image <span class="small">(Please add a image of the author)</span></label><br />
+    <%= f.file_field :portrait %><br/>
+	<label for="author_text">Language <span class="small">(Please selecet the authors first language)</span></label><br/>
+    <%= f.text_field :language_name, data: {autocomplete_source: languages_path}, :id => "language_name" %>
+	<label for="author_text">Country <span class="small">(Please select a country)</span></label><br/>
+    <%= f.select :country_id, @countries.map{ |country| [country.name, country.id] }, {:include_blank => true}  %><br/>
+	<%= f.label :birth_death %><br/>
+    <%= f.text_field :birth_death %><br/>
+   <label for="author_biography">Biography</label><br />
+    <%= f.text_area :bio %>
+    
+ 	
+    <button type="submit">Add Author</button>
+
+  </div>
+<% end %>

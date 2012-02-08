@@ -1,0 +1,34 @@
+
+<h1>Listing languages| <span class="new_link"><%= link_to 'New language', new_admin_language_in_country_path %></span></h1>
+
+
+<div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @language_in_country, :container => false %>
+  </div>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>country</th>
+    <th>language</th>
+    <th>speakers</th>
+    <th>comment</th>
+
+  </tr>
+  </thead>
+<tbody>
+<% @language_in_country.each do |l_i_c| %>
+  <tr>
+    <td><%= l_i_c.country.name %></td>
+    <td><%= l_i_c.language.name  %></td>
+    <td><%= l_i_c.speakers_in_country %></td>
+    <td><%= l_i_c.comment  %></td>
+    <td><%= link_to 'Show', admin_language_in_country_path(l_i_c) %></td>
+    <td><%= link_to 'Edit', edit_admin_language_in_country_path(l_i_c) %></td>
+    <td><%= link_to 'Destroy', admin_language_in_country_path(l_i_c), :confirm => 'Are you sure?', :method => :delete%></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+

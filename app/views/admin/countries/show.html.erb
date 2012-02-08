@@ -1,0 +1,53 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @country.name %>
+</p>
+
+<p>
+  <b>Languages:</b> <br>
+
+    <table id="list_table" class="tablesorter">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Speakers</th>
+        <th>Comment</th>
+
+
+
+      </tr>
+       </thead>
+    <tbody>
+     <% @country.language_in_country.each do |l| %>
+      <tr>
+        <td><%= link_to l.language.name, admin_language_path(l.language) %></td>
+           <td><%= l.speakers_in_country %></td>
+        <td><%= l.comment%></td>
+
+
+      </tr>
+    <% end %>
+    </tbody>
+    </table>
+
+</p>
+
+<p>
+  <b>Population:</b>
+  <%= @country.population %>
+</p>
+
+<p>
+  <b>History:</b>
+  <%=  markdown( @country.history)%>
+</p>
+<p>
+  <b>Description:</b>
+  <%= markdown( @country.description) %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_country_path(@country) %> |
+<%= link_to 'Back', admin_countries_path %>

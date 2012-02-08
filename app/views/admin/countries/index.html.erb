@@ -1,0 +1,29 @@
+<h1>Listing countries|<span class="new_link"><%= link_to 'New Country', new_admin_country_path %></span></h1>
+
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Registered Language</th>
+    <th>Population</th>
+
+
+
+  </tr>
+   </thead>
+<tbody>
+<% @countries.each do |country| %>
+  <tr>
+    <td><%= country.name %></td>
+   	<td><%= country.languages.count%></td>
+    <td><%= country.population %></td>
+
+    <td><%= link_to 'Show', admin_country_path(country) %></td>
+    <td><%= link_to 'Edit', edit_admin_country_path(country) %></td>
+    <td><%= link_to 'Destroy', admin_country_path(country), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+
+

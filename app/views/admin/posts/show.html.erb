@@ -1,0 +1,52 @@
+<p id="notice"><%= notice %></p>
+ <%= link_to 'Edit', edit_admin_post_path(@post) %> |
+<%= link_to 'Back', admin_posts_path %>
+<p>
+  <b>Title:</b> <br>
+  <%= @post.title %> <em>Points:<%= @post.points%> </em>
+</p>
+  <p>
+  <b>Writer:</b> <br>
+  <%= @post.user.name%> <em>Points:<%= @post.user.points%> </em>
+</p>
+<p>
+  <b>Country:</b> <br>
+  <%= @post.user.country.name %>
+</p>
+<p>
+  <b>Language:</b> <br>
+  <%= @post.language.name %>
+</p>
+<p>
+  <b>Text:</b> <br>
+  <%= markdown( @post.text) %>
+</p>
+
+<p>
+  <b>Language:</b> <br>
+  <%= @post.language.name %>
+</p>
+
+<div class="flickr_pagination">
+    <div class="page_info">
+    </div>
+   <%= will_paginate @comments, :container => false %>
+  </div>
+<table id="list_table" class="tablesorter">
+  <thead>
+  <tr>
+    <th>Points</th>
+    <th>Text</th>
+  </tr>
+   </thead>
+<tbody>
+<% @comments.each do |comment| %>
+  <tr>
+    <td><%= comment.points %></td>
+    <td><%= comment.text %></td>
+    <td><%= link_to 'Show', admin_comment_path(comment)%></td>
+    <td><%= link_to 'Edit', edit_admin_comment_path(comment) %></td>
+    <td><%= link_to 'Destroy', admin_comment_path(comment), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>  </tbody>
+</table>

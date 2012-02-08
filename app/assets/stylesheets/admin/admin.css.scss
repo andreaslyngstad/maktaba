@@ -1,0 +1,74 @@
+// Place all the styles related to the admin/admin controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.ui-autocomplete-loading { background: white url('/images/ui-anim_basic_16x16.gif') right center no-repeat; }
+table td{
+ padding-right:20px;
+ padding-top:10px;
+
+}
+table td.head{
+font-weight:bold;
+}
+.new_link a{
+color:red;
+}
+.new_link a:hover{
+color:purple;
+}
+input#search{
+height:27px;
+font-size:15px;
+}
+#global_header.global_header_normal {
+overflow: hidden;
+height: 30px;
+width: 100%;
+font-size: 8.5pt;
+font-weight: bold;
+color: #fff;
+}
+#global_header.global_header_normal a {
+color: #fff;
+}
+#global_header.global_header_normal a:hover {
+color: #ddd;
+}
+
+.login_sign_in{
+  position:absolute;
+  top: 0px; 
+  right: 100px;
+  z-index:10;
+}
+.login, #signin, .logged_in{
+  cursor: pointer;
+ display:block;
+ 
+  position:relative;
+  padding: 15px;
+  float:left;
+  
+  z-index:11;
+}
+.left{
+
+}
+.center{
+border-left: 1px solid #000;
+padding-left: 20px;
+}
+.right{
+
+}
+.page_info{
+
+
+}
+
+@import "../form";
+@import "../autocomplete";
+@import "scaffolds";
+@import "../pagination";
+@import "../style";
+@import "../markdown_preview";

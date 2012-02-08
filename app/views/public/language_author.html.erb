@@ -1,0 +1,44 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+ <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <% end %>
+  <li class="inactive enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="active enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+<div class="info">
+<h2>
+  <%= @author.name %> <span class="small"><%= @author.birth_death%>
+  <% if current_user and current_user.points > 200 %>
+  | <%= link_to 'Edit', edit_author_path(@author) %>
+  <% end %>
+    </span>
+</h2>
+<div class="l author_lang_count">
+<ul>
+	<li>
+		<h4>Country</h4>
+		<ul style="padding-left:10px;">
+			<li>
+  				<%= link_to @author.country.name, country_path(@author.country.name  )%>
+			</li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>
+		<h4>Language</h4>
+		<ul style="padding-left:10px;">
+			<li>
+			  <%= link_to @author.language.name, language_path(@author.language.name ) %>
+			</li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="l"><%= image_tag @author.portrait.url(:original)  if @author.portrait_file_name %></div>
+<div class="author_bio">
+  <%= markdown(@author.bio) %>
+</div>
+</div>
+<%= render "public/news_language" %>

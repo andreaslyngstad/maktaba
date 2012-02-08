@@ -1,0 +1,50 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @language.name, language_path(@language.name) %></li>
+  <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", language_posts_path(@language.name) %></li>
+  <% end %>
+  <li class="active enabled"><%= link_to "Works", language_works_path(@language.name) %></li>
+   <li class="inactive enabled"><%= link_to "Authors", language_authors_path(@language.name) %></li></ul>
+</nav>
+
+<div class="info">
+<div class="l work_title_washl">
+<h2>
+   <%= @work.title %> <span class="small"><%= !@work.number == "" ? ("ISBN: " + @work.number) : "" %> <%= @work.published if @work.published %>
+    <% if current_user and current_user.points > 100 %>
+  |<%= link_to 'Edit', edit_work_path(@work) %>
+      <% end %>
+      </span>
+</h2>
+<p>
+  <%= markdown(@work.summary) %>
+</p>
+</div>
+<div class="l work_img_info">
+<div class="l"><%= image_tag @work.cover.url(:original) %></div>
+<div class="l work_auth_lang">
+<ul>
+	<li>
+		<h4>Author</h4>
+		<ul style="padding-left:10px;">
+			<li>
+  				<%= link_to @work.author.name, language_author_path(@work.author.language.name,@work.author )%>
+			</li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>
+		<h4>Language</h4>
+		<ul style="padding-left:10px;">
+			<li>
+			  <%= link_to @work.language.name, language_path(@work.language.name) %>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+</div>
+</div>
+  </div>
+<%= render "public/news_language" %>

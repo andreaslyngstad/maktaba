@@ -1,0 +1,43 @@
+
+*								{margin:0;padding:0;}
+html,body						{font-family:arial;font-size:12px;background:#fff;height:101%;}
+.clr							{clear:both;}
+.l								{float:left; margin: 20px;}
+.r								{float:right;}
+
+h1								{font-family:georgia;font-size:26px;}
+h2								{font-family:georgia;font-size:20px;}
+h2 a							{text-decoration:none;color:#000}
+a								{text-decoration:none;color:red;}
+a:hover                         {text-decoration:none;color:purple;}
+
+
+p								{padding:5px 0px 5px 0px;}
+ul,ol							{padding:0px 0px 0px 0px; list-style:none;}
+input[type="submit"]			{padding:5px 10px;}
+#header							{}
+#header_wrapper					{position:relative;width:100%; height:150px;}
+.content{
+	width:960px;
+	margin:0 auto;
+	min-height:400px;
+	height:auto!important;
+	height:400px;
+	padding:20px 0px 30px 0px;
+	}
+.orange_bgr{
+	background: 			#FDB515;
+	background: -webkit-gradient(linear,left top,left bottom,
+	color-stop(0, 		#E35911),
+	color-stop(1, 		#B21712));
+	background: -moz-linear-gradient(top,  #E35911,  #B21712);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E35911', EndColorStr='#B21712')";
+	}
+.table_form{
+
+	
+}
+@import "tabs";
+@import "style";
+@import "admin";
+@import "user";

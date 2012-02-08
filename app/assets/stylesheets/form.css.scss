@@ -1,0 +1,129 @@
+.form{
+margin:0 auto;
+width:400px;
+padding:14px;
+
+}
+
+#stylized.signinform, #stylized.form{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+color: #000;
+}
+
+#stylized h1 {
+margin-bottom:20px;
+margin-left:210px;
+}
+#stylized a{
+  color:#333;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized.signinform label {
+display:block;
+line-height:45px;
+font-size:16px;
+text-align:right;
+width:200px;
+float:left;
+}
+
+#stylized label{
+display:block;
+line-height:45px;
+font-size:16px;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input[type=text], #stylized input[type=password], #stylized input[type="email"] {
+float:left;
+height:31px;
+font-size:16px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized input[type=checkbox]{
+  margin:15px 100px 2px 10px;
+
+}
+#stylized textarea
+{
+float:left;
+height:31px;
+font-size:16px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+
+
+#stylized select#user_birth_1i{
+ width:70px;
+}
+#stylized select#user_birth_2i{
+ width:70px;
+}
+#stylized select#user_birth_3i{
+ width:45px;
+}
+#stylized select
+{
+float:left;
+height:31px;
+font-size:16px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:205px;
+margin:2px 0 20px 10px;
+}
+
+#stylized button{
+clear:both;
+border:solid 1px #444;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+cursor: pointer;
+}
+button{
+clear:both;
+border:solid 1px #444;
+margin:0px;
+padding:0px;
+width:125px;
+height:31px;
+background:#666666;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+cursor: pointer;
+}
+#stylized.signinform button{
+  margin-left:210px;
+}

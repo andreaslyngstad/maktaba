@@ -1,0 +1,16 @@
+<nav id="tabs"><ul>
+  <li class="inactive enabled"><%= link_to @country.name, country_path(@country.name) %></li>
+   <% if current_user %>
+  <li class="inactive enabled"><%= link_to "Posts", country_posts_path(@country.name) %></li>
+  <% end %>
+  <li class="inactive enabled"><%= link_to "Works", country_works_path(@country.name) %></li>
+   <li class="active enabled"><%= link_to "Authors", country_authors_path(@country.name) %></li></ul>
+</nav>
+<div class="search l">
+   <%= form_tag country_authors_path, :method => 'get', :id => "products_search" do %>
+    <%= text_field_tag :search, params[:search] %>
+    <button type="submit">Search</button>
+<% end %>
+</div>
+<%= render "authors/authors_list" %>
+<%= render "public/news" %>

@@ -1,0 +1,42 @@
+<%= form_for([:admin,@author]) do |f| %>
+  <% if @author.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@author.errors.count, "error") %> prohibited this author from being saved:</h2>
+
+      <ul>
+      <% @author.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, :id => "authorname" %>
+  </div>
+    <div class="field">
+   <label for="author_image">Image <span class="small">(Please add a image of the author)</span></label><br />
+    <%= f.file_field :portrait %>
+        </div>
+<div class="field">
+   <label for="work_language">Language <span class="small">(Please select a language)</span></label><br/>
+    <%= f.text_field :language_name, data: {autocomplete_source: languages_path}, :id => "language_name" %>
+
+  </div>
+    <div class="field">
+    <label for="author_text">Country <span class="small">(Please select a country)</span></label><br/>
+    <%= f.select :country_id, @countries.map{ |country| [country.name, country.id] }, {:include_blank => true}  %><br/>
+      </div>
+	<div class="field">
+    <%= f.label :birth_death %><br/>
+    <%= f.text_field :birth_death %>
+       </div>
+      <div class="field">
+    <%= f.label :bio %><br />
+    <%= f.cktext_area :bio, :toolbar => 'Basic' %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

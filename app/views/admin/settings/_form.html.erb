@@ -1,0 +1,29 @@
+<%= form_for([:admin,@setting]) do |f| %>
+  <% if @setting.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@setting.errors.count, "error") %> prohibited this admin_setting from being saved:</h2>
+
+      <ul>
+      <% @setting.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :instructions %><br />
+    <%= f.cktext_area :instructions, :toolbar => 'Basic' %>
+  </div>
+  <div class="field">
+    <%= f.label :first_page %><br />
+    <%= f.cktext_area :first_page, :toolbar => 'Basic' %>
+  </div>
+    <div class="field">
+    <%= f.label :footer %><br />
+    <%= f.cktext_area :footer, :toolbar => 'Basic' %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
