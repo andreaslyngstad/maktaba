@@ -25,6 +25,7 @@ gem "rake", "0.8.7"
 gem "redcarpet", "~> 1.17.2"
 gem 'markdown_preview'
 gem 'aws-s3'
+gem 'aws-sdk'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
