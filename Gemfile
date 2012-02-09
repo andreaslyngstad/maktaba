@@ -13,7 +13,7 @@ end
 gem "ckeditor", "3.7.0.rc2", :path => "vendor/gems/ckeditor/"
 gem "heroku"
 gem 'thin'
-gem 'sass-rails', "  ~> 3.1.0"
+gem 'sass-rails', "  ~> 3.1.5"
 gem 'coffee-rails', "~> 3.1.0"
 gem 'tabulous', "1.0.3"
 gem 'json'
