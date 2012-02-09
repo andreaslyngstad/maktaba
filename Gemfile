@@ -10,7 +10,7 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
-gem "ckeditor", "3.7.0.rc2"
+gem "ckeditor", :path => "C:/Users/Andreas/RubymineProjects/ckeditor/"
 gem "heroku"
 gem 'thin'
 gem 'sass-rails', "  ~> 3.1.0"
