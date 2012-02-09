@@ -13,6 +13,7 @@
 //= require ../admin/markdownpreview.js
 //= require ../admin/jquery.tablesorter.min
 //= require_self
+CKEDITOR_BASEPATH = "/assets/ckeditor/";
 
 $(document).ready(function() {
    // $("textarea").markItUp(mySettings);
