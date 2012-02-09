@@ -187,13 +187,6 @@
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\quotes-4f4975c1634628ff35df09277805c881.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\sprites-6368a1bdfcba9b928afce34f168750a5.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ui-anim_basic_16x16-f748c2a0f1bfc8e245e5a470a0893631.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\1\content_nor.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\1\original_nor.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\1\thumb_nor.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\2\content_bilde_003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\2\original_bilde_003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\ckeditor_assets\pictures\2\thumb_bilde_003.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/maktaba.iml" afterPath="$PROJECT_DIR$/.idea/maktaba.iml" />
     </list>
     <ignored path="maktaba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -228,7 +221,7 @@
       <file leaf-file-name="editor.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/ckeditor-3.7.0.rc2/vendor/assets/javascripts/ckeditor/skins/kama/editor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="44" selection-start="12832" selection-end="12832" vertical-scroll-proportion="0.15454546">
+            <state line="8" column="3292" selection-start="16061" selection-end="16061" vertical-scroll-proportion="0.15925059">
               <folding />
             </state>
           </provider>
@@ -780,7 +773,7 @@
     </entry>
     <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/ckeditor-3.7.0.rc2/vendor/assets/javascripts/ckeditor/skins/kama/editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="12832" selection-end="12832" vertical-scroll-proportion="0.15454546">
+        <state line="8" column="3292" selection-start="16061" selection-end="16061" vertical-scroll-proportion="0.15925059">
           <folding />
         </state>
       </provider>
