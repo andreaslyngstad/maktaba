@@ -187,7 +187,7 @@ PLATFORMS
 DEPENDENCIES
   aws-s3
   aws-sdk
-  ckeditor (= 3.7.0.rc2)
+  ckeditor
   coffee-rails (~> 3.1.0)
   devise (= 1.5.3)
   eventmachine (>= 1.0.0.beta)
