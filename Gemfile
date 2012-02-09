@@ -6,11 +6,12 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 group :production do
   gem 'pg'
+  gem 'aws-sdk'
 end
 group :development, :test do
   gem 'sqlite3'
 end
-gem "ckeditor"
+gem "ckeditor", "3.7.0.rc2", :git => "git://github.com/galetahub/ckeditor.git"
 gem "heroku"
 gem 'thin'
 gem 'sass-rails', "  ~> 3.1.5"
@@ -25,7 +26,7 @@ gem "rake", "0.8.7"
 gem "redcarpet", "~> 1.17.2"
 gem 'markdown_preview'
 gem 'aws-s3'
-gem 'aws-sdk'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
