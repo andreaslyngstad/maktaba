@@ -13,12 +13,12 @@
       var hoverColorArray =  ["#07f930", "#FCfD09", "#DAf21A", "#0Ff7AF"];
   	var paths = {
 
-    <%= @country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= @country.id %>", name: "<%= @country.name %>",slug:"<%= @country.name %>", fill:"<%= @country.color %>" ,url:"<%= country_path(@country.name) %> ",path:"<%= @country.path %>"},
+    <%= @country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= @country.id %>", name: "<%= @country.name %>",slug: "<%= @country.name %>", fill:"<%= @country.color %>" ,url:"<%= country_path(@country.name) %> ",path:"<%= @country.path %>"},
 
 	<% @countries.each do |country| %>
 
     <% if country.name != "South Africa" %>
-	<%= country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= country.id %>", name: "<%= country.name %>",slug:"<%= country.name %>", fill:"<%= country.color %>",url:"<%= country_path(country.name) %> ",path:"<%= country.path %>"},
+	<%= country.name.gsub(/\s+/, "").gsub("-", "") %>:{id: "<%= country.id %>", name: "<%= country.name %>",slug: "<%= country.name %>", fill:"<%= country.color %>",url:"<%= country_path(country.name) %> ",path:"<%= country.path %>"},
 	<% end %>
 	<% end %>
 }
