@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/galetahub/ckeditor.git
-  revision: 4bad5fecd0fcc4ec911215d88c202d9b347311e5
+  remote: git://github.com/andreaslyngstad/ckeditor.git
+  revision: bbcb958eb4a5c797d02adc387b21e18269689bfd
   specs:
     ckeditor (3.7.0.rc2)
       mime-types (~> 1.17.2)

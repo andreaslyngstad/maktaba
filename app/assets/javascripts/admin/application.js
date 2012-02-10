@@ -13,7 +13,7 @@
 //= require ../admin/markdownpreview.js
 //= require ../admin/jquery.tablesorter.min
 //= require_self
-CKEDITOR_BASEPATH = "/assets/ckeditor/";
+
 
 $(document).ready(function() {
    // $("textarea").markItUp(mySettings);
@@ -34,6 +34,7 @@ $(document).ready(function() {
       $("#country_path").removeAttr('disabled');
         return false
     });
+    CKEDITOR_BASEPATH = "/assets/ckeditor/";
     CKEDITOR.config.toolbar_Basic = [
         ['Source'],
         ['Undo','Redo','-','SelectAll','RemoveFormat'],

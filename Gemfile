@@ -11,7 +11,7 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
-gem "ckeditor", "3.7.0.rc2", :git => "git://github.com/galetahub/ckeditor.git"
+gem "ckeditor", "3.7.0.rc2", :git => "git://github.com/andreaslyngstad/ckeditor.git"
 gem "heroku"
 gem 'thin'
 gem 'sass-rails', "  ~> 3.1.5"
