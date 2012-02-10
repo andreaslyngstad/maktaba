@@ -7,8 +7,8 @@
     <list default="true" id="caac4bf8-5235-4eca-b219-5a0cfcbec36c" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-4932d308a6010e6bc0f13b57bd83015a.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-4932d308a6010e6bc0f13b57bd83015a.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-fdfd5e7a8861e5c8b526489d4542220a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-fdfd5e7a8861e5c8b526489d4542220a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-91c780d6b06701ca80ff22009cbf2d2e.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\application-91c780d6b06701ca80ff22009cbf2d2e.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\asc-820c62b015236a9e24d179aa66addc94.gif" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\bg-6d474dbdff6502994f2ff83f0a651414.gif" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\admin\bg-container-c28502265de07a5816743c18bd8a34a3.png" afterPath="" />
@@ -96,124 +96,8 @@
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\_languages-673d01083077dabcd64ba5ab6fd9ecf6.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\_languages-673d01083077dabcd64ba5ab6fd9ecf6.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\_translationstatus-58be1ae4db275d7eb31a7e5b4fdd9e2a.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\af-a93ff1cce07cfd9615143d7ba368e5ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\af-a93ff1cce07cfd9615143d7ba368e5ca.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ar-afbbd3a9c9b805ebad62fa897b2017ba.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ar-afbbd3a9c9b805ebad62fa897b2017ba.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bg-c7638077b7e2e2dec1b00b029bddbc15.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bg-c7638077b7e2e2dec1b00b029bddbc15.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bn-3c3c2f36303b8fb89adeb473891e0827.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bn-3c3c2f36303b8fb89adeb473891e0827.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bs-7cc1121eb89e805b807a5022bce86d28.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\bs-7cc1121eb89e805b807a5022bce86d28.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ca-c56deddbfea1d64ee622ba563e360923.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ca-c56deddbfea1d64ee622ba563e360923.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\cs-54290ad5edb73641d02d7a69e3afa299.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\cs-54290ad5edb73641d02d7a69e3afa299.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\cy-0df91702f1c454c4bd28e7c41a6136da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\cy-0df91702f1c454c4bd28e7c41a6136da.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\da-cbe975f2a318ebffcc983a453e641554.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\da-cbe975f2a318ebffcc983a453e641554.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\de-2a26cb6d6d1d9a66b50abb399006354e.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\de-2a26cb6d6d1d9a66b50abb399006354e.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\el-a7d65735b79d7bb3bac988e601a371ab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\el-a7d65735b79d7bb3bac988e601a371ab.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-2703ca63c5dd8ed8b0457012a6562cd2.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-2703ca63c5dd8ed8b0457012a6562cd2.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-au-a9feffc421d84a65377dcc7732b06abc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-au-a9feffc421d84a65377dcc7732b06abc.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-ca-08a5ce2eecff2321a4dcd14bc508e150.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-ca-08a5ce2eecff2321a4dcd14bc508e150.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-gb-04b3e7ae7c465780e006f1cf929b57cf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\en-gb-04b3e7ae7c465780e006f1cf929b57cf.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\eo-551ee5e5612d95ba47ef8d8dd9d0a790.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\eo-551ee5e5612d95ba47ef8d8dd9d0a790.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\es-d5722fe255f070485ba78730ee107989.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\es-d5722fe255f070485ba78730ee107989.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\et-62a2909f03ddda89e6a4acf5d14e27ab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\et-62a2909f03ddda89e6a4acf5d14e27ab.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\eu-58b68e19f2abd6845046b5f977d9e940.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\eu-58b68e19f2abd6845046b5f977d9e940.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fa-903d706920050fb8864879a259d6310f.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fa-903d706920050fb8864879a259d6310f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fi-530253360c7ea42eecf9674e5b3103d2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fi-530253360c7ea42eecf9674e5b3103d2.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fo-c56ce72caa65eb98b58bf98f3148daeb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fo-c56ce72caa65eb98b58bf98f3148daeb.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fr-22f3e43686d719fca197e464a433daf4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fr-22f3e43686d719fca197e464a433daf4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fr-ca-529012473fb041edc179d7af015f5f44.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\fr-ca-529012473fb041edc179d7af015f5f44.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\gl-7c54476a7e61750fc7e7858795b4f0c8.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\gl-7c54476a7e61750fc7e7858795b4f0c8.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\gu-77e8256f27791d81201cfc238c9f4b97.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\gu-77e8256f27791d81201cfc238c9f4b97.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\he-f5b797bd13a65b0e434ba0763d0ed6e1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\he-f5b797bd13a65b0e434ba0763d0ed6e1.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hi-7d9c5f6d9dc92b6456ce5473603a5609.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hi-7d9c5f6d9dc92b6456ce5473603a5609.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hr-a0fe0fc5eb5e3dee4bda94c05955f78a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hr-a0fe0fc5eb5e3dee4bda94c05955f78a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hu-388e9de675902aac829aba95d552ebed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\hu-388e9de675902aac829aba95d552ebed.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\is-f1ca79aa997b069a45972a09042b2987.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\is-f1ca79aa997b069a45972a09042b2987.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\it-742a0a99520c0fc9d115e499c485c4b8.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\it-742a0a99520c0fc9d115e499c485c4b8.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ja-3005e28e55cf7ae298e6cd4fbee4a9bd.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ja-3005e28e55cf7ae298e6cd4fbee4a9bd.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ka-22667319bbc347eb40fca5b261f7ac15.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ka-22667319bbc347eb40fca5b261f7ac15.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\km-1e74856fce05bbe1f1690579c177bb2a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\km-1e74856fce05bbe1f1690579c177bb2a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ko-909192c4712fdb7fd55bb7819b28697c.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ko-909192c4712fdb7fd55bb7819b28697c.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\lt-8f558ce732ecf90d3e36a1efca2d2eab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\lt-8f558ce732ecf90d3e36a1efca2d2eab.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\lv-17a73f939d21309ddd421e6bfbe64eb9.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\lv-17a73f939d21309ddd421e6bfbe64eb9.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\mn-26c209123703dc9ebc1206b82ad9bf0a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\mn-26c209123703dc9ebc1206b82ad9bf0a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ms-75dab21aff716f3ba112eea6aed55514.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ms-75dab21aff716f3ba112eea6aed55514.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\nb-034433094ca62bf69e5bab3499b532e8.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\nb-034433094ca62bf69e5bab3499b532e8.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\nl-acfaed36b0e8d2c342d937721782f06c.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\nl-acfaed36b0e8d2c342d937721782f06c.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\no-ab11ad38e82df8c575a3a7290f10984e.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\no-ab11ad38e82df8c575a3a7290f10984e.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pl-aec6924b1850f022be87d090097b962f.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pl-aec6924b1850f022be87d090097b962f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pt-ac4f2aaaf0d9ce2f304dc7951037ef6b.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pt-ac4f2aaaf0d9ce2f304dc7951037ef6b.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pt-br-6a1b4a7d7a1e503df20d9c0ca22f6fc4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\pt-br-6a1b4a7d7a1e503df20d9c0ca22f6fc4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ro-a79b5d1a158cdab04b0efa3d7fc4202a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ro-a79b5d1a158cdab04b0efa3d7fc4202a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ru-798df7b145dbf3f61e0e45d9984efa1d.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\ru-798df7b145dbf3f61e0e45d9984efa1d.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sk-77b4700a0d39ac5264538c8d13062aac.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sk-77b4700a0d39ac5264538c8d13062aac.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sl-c7b523a484c78b985734290ba2f25ed9.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sl-c7b523a484c78b985734290ba2f25ed9.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sr-868221ca6dd94bc5298cafc36bde0ddc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sr-868221ca6dd94bc5298cafc36bde0ddc.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sr-latn-2c97210019e0543ffe12dce731106d32.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sr-latn-2c97210019e0543ffe12dce731106d32.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sv-2ac5654d0196f05824cd60daf81a526d.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\sv-2ac5654d0196f05824cd60daf81a526d.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\th-48db585eec42416bee14a2fea6dc4098.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\th-48db585eec42416bee14a2fea6dc4098.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\tr-e92b837eb7642cbbde70c07e6472dcaf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\tr-e92b837eb7642cbbde70c07e6472dcaf.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\uk-da3dd3047189955bbe91bc0338599faa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\uk-da3dd3047189955bbe91bc0338599faa.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\vi-db4884160caf79985478a020f2b0ffe4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\vi-db4884160caf79985478a020f2b0ffe4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\zh-79cc7eb6b4ebb69232c67d7d1b491e90.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\zh-79cc7eb6b4ebb69232c67d7d1b491e90.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\zh-cn-19e9580c811ee78c2b2098043de5d438.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\lang\zh-cn-19e9580c811ee78c2b2098043de5d438.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\a11yhelp\dialogs\a11yhelp-020d664c264ac857a6e9f123efffab9d.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\a11yhelp\dialogs\a11yhelp-020d664c264ac857a6e9f123efffab9d.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\a11yhelp\lang\en-0c2608ca015b40b4a6c4063251f516b8.js" afterPath="" />
@@ -258,17 +142,6 @@
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\docprops\dialogs\docprops-e5f079d72476f45c47da0cb7217954dc.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\docprops\plugin-a59b89b08d41a70f139e94403f77a172.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\docprops\plugin-a59b89b08d41a70f139e94403f77a172.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\dialogs\embed-fb4da91c541aa9b83f5b7308288077eb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\dialogs\embed-fb4da91c541aa9b83f5b7308288077eb.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\images\embed-168b7f8d86d69fd284923a3e7a90ebc3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\en-1c72b84e56375db3b2991bfdd0b8cfb6.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\en-1c72b84e56375db3b2991bfdd0b8cfb6.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\ru-8e74f496b810dc9e6279e5232ee8221f.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\ru-8e74f496b810dc9e6279e5232ee8221f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\uk-d9f24a1fc9f38eb65c5c1578a63606f0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\lang\uk-d9f24a1fc9f38eb65c5c1578a63606f0.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\plugin-93039516071a63b5c2937bd6a089e4d6.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\embed\plugin-93039516071a63b5c2937bd6a089e4d6.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\find\dialogs\find-1a00cd2a0a41326e9a281e0b0a7ad30f.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\find\dialogs\find-1a00cd2a0a41326e9a281e0b0a7ad30f.js.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\flash\dialogs\flash-7f61430f61cc56852032d5f395cb418b.js" afterPath="" />
@@ -403,41 +276,6 @@
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\wsc\dialogs\wsc-828fb0c0a017559a91224a4d0ca7a7d0.css.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\xml\plugin-0ca15d2a2f725ff30d2302b460e4c989.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\plugins\xml\plugin-0ca15d2a2f725ff30d2302b460e4c989.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\dialog-29164ab6e98a7e620cc05d11c523a6cf.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\dialog-29164ab6e98a7e620cc05d11c523a6cf.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\editor-40bd4dd7ce49cf54847df76b417bc268.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\editor-40bd4dd7ce49cf54847df76b417bc268.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\icons-9d3eca06a539035ef6b1c3bd81df1aac.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\icons_rtl-aeb47940348bb794d0c51a8c752904b8.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\dialog_sides-3e5878a759ac96ccc7a0120ede543239.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\dialog_sides-b2e0faad80156a5b6d1e3b2e154de599.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\dialog_sides_rtl-213ac5019db4e41512b98c35f7a48f2e.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\mini-46560712c4ce68a8c7f4076d34cba20e.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\noimage-a2cc8fd2b37f368e469119ab83013612.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\sprites-2f4be37dfe20462d3879fa9e97be7c4b.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\sprites_ie6-0657a22bf8896c14fa3bab9aa8ce4625.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\images\toolbar_start-d24bf760b3d2d019158605ec6c957426.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\skin-2b03b37322193fbf9bdec09e5bc694c7.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\skin-2b03b37322193fbf9bdec09e5bc694c7.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\templates-cd2f03efcd0eb436cfd799e2485a2923.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\kama\templates-cd2f03efcd0eb436cfd799e2485a2923.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\dialog-b1bb78183692e8d9fbff210b6e152b69.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\dialog-b1bb78183692e8d9fbff210b6e152b69.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\editor-342f1c010ff095b62994bf72f280d772.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\editor-342f1c010ff095b62994bf72f280d772.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\icons-9d3eca06a539035ef6b1c3bd81df1aac.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\icons_rtl-aeb47940348bb794d0c51a8c752904b8.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\dialog_sides-566f701a7fb1582bb8aa56aa23a08650.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\dialog_sides-63b6dee922b8534a4dffc35b89ab1a55.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\dialog_sides_rtl-8db16a93f455a72394cfc976eb4cadb4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\mini-46560712c4ce68a8c7f4076d34cba20e.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\noimage-a2cc8fd2b37f368e469119ab83013612.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\sprites-4c0eb4a3d1eaf4ed444aec605899d073.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\images\sprites_ie6-f4c92c03a74d3ca5ed75eab5d0efc218.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\skin-28b05ef3d1e1a5318b63b4211f3c510b.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\skin-28b05ef3d1e1a5318b63b4211f3c510b.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\templates-52b91b90b3646766fd07aed1b088c169.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\office2003\templates-52b91b90b3646766fd07aed1b088c169.css.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\v2\dialog-54ffe0e843d11286f07c78a203a02d1b.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\v2\dialog-54ffe0e843d11286f07c78a203a02d1b.css.gz" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ckeditor\skins\v2\editor-af46af93b949749fa1f4ff2dc9047698.css" afterPath="" />
@@ -485,10 +323,7 @@
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\quotes-4f4975c1634628ff35df09277805c881.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\sprites-6368a1bdfcba9b928afce34f168750a5.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Andreas\Documents\Aptana Studio 3 Workspace\maktaba\public\assets\ui-anim_basic_16x16-f748c2a0f1bfc8e245e5a470a0893631.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/maktaba.iml" afterPath="$PROJECT_DIR$/.idea/maktaba.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" />
     </list>
     <ignored path="maktaba.iws" />
@@ -512,19 +347,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="21" selection-start="1294" selection-end="1311" vertical-scroll-proportion="0.0">
+            <state line="35" column="7" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.6662934">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="83" selection-start="327" selection-end="327" vertical-scroll-proportion="0.18141097">
+            <state line="13" column="83" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -567,8 +402,8 @@
         <option value="$PROJECT_DIR$/app/views/admin/works/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" />
       </list>
     </option>
   </component>
@@ -1155,14 +990,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3342246" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3342246" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1268,11 +1103,6 @@
         <state line="7" column="3202" selection-start="11612" selection-end="11620" vertical-scroll-proportion="0.13934426" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="21" selection-start="1294" selection-end="1311" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
@@ -1282,7 +1112,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="83" selection-start="327" selection-end="327" vertical-scroll-proportion="0.18141097">
+        <state line="13" column="83" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.6662934">
           <folding />
         </state>
       </provider>

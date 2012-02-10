@@ -34,7 +34,6 @@ $(document).ready(function() {
       $("#country_path").removeAttr('disabled');
         return false
     });
-    CKEDITOR_BASEPATH = "/assets/ckeditor/";
     CKEDITOR.config.toolbar_Basic = [
         ['Source'],
         ['Undo','Redo','-','SelectAll','RemoveFormat'],
