@@ -82,6 +82,7 @@ ckeditor/images/spacer.gif: ckeditor/images/spacer-efb4fe7589bccc45af59714c77085
 ckeditor/lang/_translationstatus.txt: ckeditor/lang/_translationstatus-58be1ae4db275d7eb31a7e5b4fdd9e2a.txt
 ckeditor/plugins/about/dialogs/logo_ckeditor.png: ckeditor/plugins/about/dialogs/logo_ckeditor-23d870d1ed71ce5e586ffae0400ff744.png
 ckeditor/plugins/attachment/images/attachment.png: ckeditor/plugins/attachment/images/attachment-550d11a2d1711d201a6eee48774db16e.png
+ckeditor/plugins/embed/images/embed.png: ckeditor/plugins/embed/images/embed-168b7f8d86d69fd284923a3e7a90ebc3.png
 ckeditor/plugins/flash/images/placeholder.png: ckeditor/plugins/flash/images/placeholder-2523aeb6efa394f0835cb7d9c1488c77.png
 ckeditor/plugins/forms/images/hiddenfield.gif: ckeditor/plugins/forms/images/hiddenfield-936f3f266258d459fc0a9a6217a0b056.gif
 ckeditor/plugins/iframe/images/placeholder.png: ckeditor/plugins/iframe/images/placeholder-f55cfd987744bc8e0d297e75cd483923.png
@@ -151,6 +152,11 @@ ckeditor/plugins/dialog/dialogDefinition.js: ckeditor/plugins/dialog/dialogDefin
 ckeditor/plugins/div/dialogs/div.js: ckeditor/plugins/div/dialogs/div-2c04740632a48edfe0c702aa8d7971af.js
 ckeditor/plugins/docprops/dialogs/docprops.js: ckeditor/plugins/docprops/dialogs/docprops-e5f079d72476f45c47da0cb7217954dc.js
 ckeditor/plugins/docprops/plugin.js: ckeditor/plugins/docprops/plugin-a59b89b08d41a70f139e94403f77a172.js
+ckeditor/plugins/embed/dialogs/embed.js: ckeditor/plugins/embed/dialogs/embed-fb4da91c541aa9b83f5b7308288077eb.js
+ckeditor/plugins/embed/lang/en.js: ckeditor/plugins/embed/lang/en-1c72b84e56375db3b2991bfdd0b8cfb6.js
+ckeditor/plugins/embed/lang/ru.js: ckeditor/plugins/embed/lang/ru-8e74f496b810dc9e6279e5232ee8221f.js
+ckeditor/plugins/embed/lang/uk.js: ckeditor/plugins/embed/lang/uk-d9f24a1fc9f38eb65c5c1578a63606f0.js
+ckeditor/plugins/embed/plugin.js: ckeditor/plugins/embed/plugin-93039516071a63b5c2937bd6a089e4d6.js
 ckeditor/plugins/find/dialogs/find.js: ckeditor/plugins/find/dialogs/find-1a00cd2a0a41326e9a281e0b0a7ad30f.js
 ckeditor/plugins/flash/dialogs/flash.js: ckeditor/plugins/flash/dialogs/flash-7f61430f61cc56852032d5f395cb418b.js
 ckeditor/plugins/forms/dialogs/button.js: ckeditor/plugins/forms/dialogs/button-06ca60f5555e1db383d434c037730225.js

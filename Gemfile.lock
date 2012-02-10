@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/andreaslyngstad/ckeditor.git
-  revision: ab401b9b91d5a4f19b5df8a6685bf7ac8df04ba2
+  revision: b8ef7f9593f73ee5220d1acf985a21d82b570dab
   specs:
     ckeditor (3.7.0.rc2)
       mime-types (~> 1.17.2)
